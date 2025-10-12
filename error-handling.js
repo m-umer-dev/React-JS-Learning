@@ -1,0 +1,7 @@
+console.log("Error Handling Video is clicked");
+setTimeout(() => {
+  console.log("Error Handling Video is loading...");
+}, 1000);
+setTimeout(() => {
+  console.log("Error Handling video is loaded and Played..");
+}, 2000);
