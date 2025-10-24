@@ -59,10 +59,12 @@ async function timer() {
 
 let main = async () => {
   try {
-    console.log("Pass");
-  } catch {
     let a = await timer();
     console.log(a);
-    console.log("not");
+    console.log("Pass");
+  } catch (err) {
+    console.log(err);
   }
 };
+
+main();
