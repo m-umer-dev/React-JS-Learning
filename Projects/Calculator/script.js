@@ -1,5 +1,3 @@
-console.log("Script is Working");
-
 let screen_value = document.querySelector(".screen-sec p");
 let btn = document.querySelectorAll("button");
 let added = document.querySelector("#added");
